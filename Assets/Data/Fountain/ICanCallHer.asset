@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: Fountain
+  m_Name: ICanCallHer
   m_EditorClassIdentifier: 
-  id: Fountain
+  id: ICanCallHer
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: I see something shiny in the fountain... Oh, it's a wish fountain.
+  line: I can call her now.
+  person: 

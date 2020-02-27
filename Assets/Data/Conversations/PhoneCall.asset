@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67d9d4bddef6b324db07e7c97f8a61a1, type: 3}
   m_Name: PhoneCall
   m_EditorClassIdentifier: 
+  conversationId: PhoneCall
   lines:
   - {fileID: 11400000, guid: 595acfbeea282ce4aa2b9030f01453cc, type: 2}
   - {fileID: 11400000, guid: 9678a25cc890d9248959d000e87906ed, type: 2}

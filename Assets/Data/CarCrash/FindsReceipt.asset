@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PhoneBoothFound
+  m_Name: FindsReceipt
   m_EditorClassIdentifier: 
-  id: PhoneBoothFound
+  id: FindsReceipt
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: Ah, a phone booth. I can use that to call Lola.
+  line: There is in something in my pocket. It seems to be a receipt from a grocery
+    store from few hours ago.
+  person: 

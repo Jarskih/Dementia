@@ -5,18 +5,24 @@ using UnityEngine;
 
 public class Conversation : ScriptableObject
 {
-    private int index = 0;
-    public Narrative[] lines;
+    public string conversationId;
+    private int index = -1;
+    [SerializeField] private Narrative[] lines;
 
     public Narrative GetNextLine()
     {
         index++;
         
-        if (index <= lines.Length)
+        if (index < lines.Length)
         {
             return lines[index];
         }
 
-        return lines[0];
+        return null;
+    }
+
+    public void Reset()
+    {
+        index = -1;
     }
 }
