@@ -5,8 +5,8 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     [SerializeField] private List<Item> _items = new List<Item>();
-    
-    void AddItem(Item item)
+
+    public void AddItem(Item item)
     {
         if (_items.Contains(item)) return;
         _items.Add(item);

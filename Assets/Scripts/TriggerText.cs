@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Rendering;
 
 public class TriggerText : MonoBehaviour
 {
-    private bool played;
+    [SerializeField] private bool played;
     [SerializeField] private List<Item> _requiredItems = new List<Item>();
     [SerializeField] private string textId;
     [SerializeField] private float radius = 1;
@@ -20,7 +21,7 @@ public class TriggerText : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger");
+        Debug.Log("Trigger: " + textId);
         if (played)
         {
             return;
@@ -40,6 +41,11 @@ public class TriggerText : MonoBehaviour
 
     private bool HasRequiredItems(Inventory i)
     {
+        if (_requiredItems.Count == 0)
+        {
+            return true;
+        }
+        
         bool value = false;
 
         foreach (var item in _requiredItems)
@@ -52,7 +58,14 @@ public class TriggerText : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
+        if (played)
+        {
+            Gizmos.color = Color.white;
+        }
+        else
+        {
+            Gizmos.color = Color.red;
+        }
         Gizmos.DrawWireSphere(transform.position, radius);
     }
 }

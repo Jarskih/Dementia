@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PictureOfDaugter
+  m_Script: {fileID: 11500000, guid: 67d9d4bddef6b324db07e7c97f8a61a1, type: 3}
+  m_Name: FoundPhoneBooth
   m_EditorClassIdentifier: 
-  id: PictureOfDaugter
-  color: {r: 1, g: 1, b: 1, a: 0}
-  line: Oh, I have a daugher!
-  person: 
+  conversationId: FoundPhoneBooth
+  lines:
+  - {fileID: 11400000, guid: 717be979eb3205f4b8cbe1cd36007cb9, type: 2}

@@ -16,4 +16,4 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   line: Sir! You forgot your wallet, we kept it safe until your arrival. Here you
     go.
-  person: 
+  person: Shopkeeper
