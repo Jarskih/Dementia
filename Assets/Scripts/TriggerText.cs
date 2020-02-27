@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class TriggerText : MonoBehaviour
 {
     private bool played;
+    [SerializeField] private List<Item> _requiredItems = new List<Item>();
     [SerializeField] private string textId;
     [SerializeField] private float radius = 1;
 
@@ -25,11 +26,28 @@ public class TriggerText : MonoBehaviour
             return;
         }
 
+        if (!HasRequiredItems(other.GetComponent<Inventory>()))
+        {
+            return;
+        }
+
         if (other.CompareTag("Player"))
         {
             played = true;
             EventManager.TriggerEvent(textId);
         }
+    }
+
+    private bool HasRequiredItems(Inventory i)
+    {
+        bool value = false;
+
+        foreach (var item in _requiredItems)
+        {
+            value = i.HasItem(item);
+        }
+
+        return value;
     }
 
     private void OnDrawGizmos()

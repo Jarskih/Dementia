@@ -48,16 +48,23 @@ public class NarrativeManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.StartListening("AfterCrash", AfterCrash);
+        EventManager.StartListening("PhoneBooth", PhoneBooth);
     }
 
     private void OnDisable()
     {
         EventManager.StopListening("AfterCrash", AfterCrash);
+        EventManager.StopListening("PhoneBooth", PhoneBooth);
+    }
+
+    private void PhoneBooth()
+    {
+         _currentConversation = FindConversation("PhoneBooth"); 
     }
 
     private void AfterCrash()
     {
-        _currentConversation = FindConversation("PhoneCall");   
+        _currentConversation = FindConversation("AfterCrash");   
     }
 
     private Conversation FindConversation(string id)
