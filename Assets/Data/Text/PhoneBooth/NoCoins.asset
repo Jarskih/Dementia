@@ -15,4 +15,4 @@ MonoBehaviour:
   id: NoCoins
   color: {r: 1, g: 1, b: 1, a: 1}
   line: Let me check... I have no coins.
-  person: 
+  person: You

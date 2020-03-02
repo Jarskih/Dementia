@@ -38,7 +38,6 @@ public class NarrativeManager : MonoBehaviour
     {
         if (_currentConversation != null)
         {
-            _ui.SetActive(true);
             _textTimer += Time.deltaTime;
 
             if (_textTimer < _textDelay)
@@ -46,6 +45,7 @@ public class NarrativeManager : MonoBehaviour
                 return;
             }
 
+            _ui.SetActive(true);
             var narrative = _currentConversation.GetNextLine();
             if (narrative == null)
             {

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: ICanCallHer
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: I can call her now.
-  person: 
+  line: I can call her now from the phone booth.
+  person: You

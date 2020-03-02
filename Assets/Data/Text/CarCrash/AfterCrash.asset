@@ -15,4 +15,4 @@ MonoBehaviour:
   id: AfterCrash
   color: {r: 1, g: 1, b: 1, a: 1}
   line: Oh, my head. What happened?
-  person: 
+  person: You

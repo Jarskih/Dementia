@@ -18,19 +18,19 @@ public class PlayerInteract : MonoBehaviour
     {
         playerCollider = GetComponent<Collider2D>();
         _inventory = GetComponent<Inventory>();
-        _ui.enabled = false;
+        _ui.gameObject.SetActive(false);
     }
 
     private void Update()
     {
         if (_item == null)
         {
-            _ui.enabled = false;
+            _ui.gameObject.SetActive(false);
             return;
         }
         else
         {
-            _ui.enabled = true;
+            _ui.gameObject.SetActive(true);
         }
         
         if (Input.GetKey(KeyCode.E))

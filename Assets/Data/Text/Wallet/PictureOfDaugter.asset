@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: PictureOfDaugter
   color: {r: 1, g: 1, b: 1, a: 0}
-  line: Oh, I have a daugher!
-  person: 
+  line: There is a picture in the wallet. Oh, it seems I have a daugher!
+  person: You

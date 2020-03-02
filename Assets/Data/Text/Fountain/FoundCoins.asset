@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: FoundCoins
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: I found some coins.
-  person: 
+  line: I picked up some coins. Should be enough to make a call.
+  person: You

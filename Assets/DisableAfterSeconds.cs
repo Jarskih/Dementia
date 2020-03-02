@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class DisableAfterSeconds : MonoBehaviour
 {
+    [SerializeField] private int _disableAfterSeconds = 3;
     void Start()
     {
-        Invoke(nameof(Disable), 3);
+        Invoke(nameof(Disable), _disableAfterSeconds);
     }
 
     void Disable()
     {
-        GetComponent<Image>().enabled = false;
+        gameObject.SetActive(false);
     }
 }

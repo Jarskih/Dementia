@@ -15,4 +15,4 @@ MonoBehaviour:
   id: Fountain
   color: {r: 1, g: 1, b: 1, a: 1}
   line: I see something shiny in the fountain... Oh, it's a wish fountain.
-  person: 
+  person: You

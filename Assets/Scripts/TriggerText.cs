@@ -21,6 +21,11 @@ public class TriggerText : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.GetComponent<PlayerInteract>() == null)
+        {
+            return;
+        }
+        
         Debug.Log("Trigger: " + textId);
         if (played)
         {

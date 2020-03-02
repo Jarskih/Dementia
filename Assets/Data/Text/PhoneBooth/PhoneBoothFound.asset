@@ -15,4 +15,4 @@ MonoBehaviour:
   id: PhoneBoothFound
   color: {r: 1, g: 1, b: 1, a: 1}
   line: Ah, a phone booth. I could use that to call someone if I had coins.
-  person: 
+  person: You
