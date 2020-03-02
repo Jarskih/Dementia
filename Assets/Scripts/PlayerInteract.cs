@@ -10,6 +10,10 @@ public class PlayerInteract : MonoBehaviour
     private Inventory _inventory;
     private Collider2D playerCollider;
     [SerializeField] private Image _ui;
+    private IInteractable _item;
+    private bool _pickUp;
+    private GameObject _itemObject;
+
     void Start()
     {
         playerCollider = GetComponent<Collider2D>();
@@ -17,19 +21,35 @@ public class PlayerInteract : MonoBehaviour
         _ui.enabled = false;
     }
 
+    private void Update()
+    {
+        if (_item == null)
+        {
+            _ui.enabled = false;
+            return;
+        }
+        else
+        {
+            _ui.enabled = true;
+        }
+        
+        if (Input.GetKey(KeyCode.E))
+        {
+            _inventory.AddItem(_item.PickUp());
+            Debug.Log("Picked Up: " + _item.PickUp().itemName);
+            Destroy(_itemObject);
+            _ui.enabled = false;
+            _item = null;
+            _itemObject = null;
+        }
+    }
+
     void OnTriggerStay2D(Collider2D other)
     {
-        var item = other.GetComponent<IInteractable>();
-        if(item == null) return;
-
-        _ui.enabled = true;
-        
-        if (Input.GetKeyDown(KeyCode.E))
+        if (_item == null)
         {
-            _inventory.AddItem(item.PickUp());
-            Debug.Log("Picked Up: " + item.PickUp().itemName);
-            Destroy(other.gameObject);
-            _ui.enabled = false;
+            _item = other.GetComponent<IInteractable>();
+            _itemObject = other.gameObject;
         }
     }
 }
