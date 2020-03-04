@@ -65,6 +65,16 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 261816343515893525, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
+        type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481682375550550274, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
+        type: 3}
+      propertyPath: radius
+      value: 9.14
+      objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550275, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_Name
@@ -73,12 +83,12 @@ PrefabInstance:
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.58
+      value: -6.59
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.11
+      value: 4.45
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
