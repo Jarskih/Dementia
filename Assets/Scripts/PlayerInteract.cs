@@ -8,15 +8,13 @@ using UnityEngine.UI;
 public class PlayerInteract : MonoBehaviour
 {
     private Inventory _inventory;
-    private Collider2D playerCollider;
-    [SerializeField] private UIPickUpButton _pickUpButtonImage;
+    private UIPickUpButton _pickUpButtonImage;
     private IInteractable _item;
     private bool _pickUp;
     private GameObject _itemObject;
 
     void Start()
     {
-        playerCollider = GetComponent<Collider2D>();
         _inventory = GetComponent<Inventory>();
         _pickUpButtonImage = FindObjectOfType<UIPickUpButton>();
         _pickUpButtonImage.gameObject.SetActive(false);

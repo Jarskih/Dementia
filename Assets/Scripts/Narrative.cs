@@ -9,10 +9,20 @@ public class Narrative : ScriptableObject
      [TextArea (minLines:7, maxLines: 7)]
      [SerializeField] private string line;
      [SerializeField] private string person;
+     public SimpleAudioEvent _audio;
+     public string _event;
 
      public string GetLine()
      {
+          if (_event != "")
+          {
+               EventManager.TriggerEvent(_event);
+          }
+          
+          if (_audio != null)
+          {
+               FindObjectOfType<AudioSourcePoolManager>().PlayAudioEvent(_audio);
+          }
           return person + ": " + line;
-
      }
 }

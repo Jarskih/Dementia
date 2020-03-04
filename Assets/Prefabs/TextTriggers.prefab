@@ -48,6 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   played: 0
   _requiredItems: []
+  _itemsShouldNotBeFound:
+  - {fileID: 11400000, guid: cd2a7d4f18674104d9f36dd38f495daa, type: 2}
+  - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
   textId: FoundPhoneBooth
   radius: 3.26
 --- !u!1001 &4954449217494242230
@@ -70,12 +73,12 @@ PrefabInstance:
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15
+      value: -6.58
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4
+      value: 1.11
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
@@ -145,7 +148,7 @@ PrefabInstance:
     - target: {fileID: 1481682375550550274, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: _requiredItems.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550274, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
@@ -354,7 +357,7 @@ PrefabInstance:
     - target: {fileID: 1481682375550550274, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: textId
-      value: PhoneBooth
+      value: PhoneCall
       objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550275, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Waypoints : MonoBehaviour
 {
     [SerializeField] List<Waypoint> _waypoints = new List<Waypoint>();
+    [SerializeField] private bool _loop = true;
 
     private void Start()
     {
@@ -20,7 +21,11 @@ public class Waypoints : MonoBehaviour
     {
         if (index >= _waypoints.Count-1)
         {
-            return _waypoints[0];
+            if (_loop)
+            {
+                return _waypoints[0];
+            }
+            return null;
         }
 
         return _waypoints[index + 1];

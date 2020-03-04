@@ -16,3 +16,5 @@ MonoBehaviour:
   color: {r: 1, g: 1, b: 1, a: 1}
   line: (Line disconnected)
   person: 
+  _audio: {fileID: 11400000, guid: c01c1478acce1c04882ab19d0c7fec86, type: 2}
+  _event: 

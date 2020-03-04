@@ -17,3 +17,5 @@ MonoBehaviour:
   line: I am too embarrassed to ask for help. I am a grown man and I cannot find
     way back home.
   person: You
+  _audio: {fileID: 11400000, guid: edc3d713b379a584f8de97237d704ae3, type: 2}
+  _event: 

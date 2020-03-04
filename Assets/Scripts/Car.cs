@@ -11,6 +11,9 @@ public class Car : MonoBehaviour
     private DetectCollision _detectCollision;
 
     private Waypoints _waypoints;
+
+    [SerializeField] bool _collide = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +26,7 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_detectCollision.IsColliding())
+        if (_collide && _detectCollision.IsColliding())
         {
             return;
         } 
@@ -32,7 +35,11 @@ public class Car : MonoBehaviour
 
         if (distance < 0.5f)
         {
-            _currentWaypoint = _waypoints.GetNextWayPoint(_currentWaypoint.index);
+            var _next = _waypoints.GetNextWayPoint(_currentWaypoint.index);
+            if (_next != null)
+            {
+                _currentWaypoint = _next;
+            }
         }
 
         var lookDir = _currentWaypoint.transform.position - transform.position;

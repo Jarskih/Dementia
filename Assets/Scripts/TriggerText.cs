@@ -8,6 +8,7 @@ public class TriggerText : MonoBehaviour
 {
     [SerializeField] private bool played;
     [SerializeField] private List<Item> _requiredItems = new List<Item>();
+    [SerializeField] private List<Item> _itemsShouldNotBeFound = new List<Item>();
     [SerializeField] private string textId;
     [SerializeField] private float radius = 1;
 
@@ -26,7 +27,7 @@ public class TriggerText : MonoBehaviour
             return;
         }
         
-        Debug.Log("Trigger: " + textId);
+
         if (played)
         {
             return;
@@ -39,9 +40,32 @@ public class TriggerText : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
+            if (CanSkip(other.GetComponent<Inventory>()))
+            {
+                return;
+            }
+
             played = true;
+            Debug.Log("Trigger: " + textId);
             EventManager.TriggerEvent(textId);
         }
+    }
+
+    private bool CanSkip(Inventory i)
+    {
+        if (_itemsShouldNotBeFound.Count == 0)
+        {
+            return false;
+        }
+        
+        bool value = false;
+
+        foreach (var item in _itemsShouldNotBeFound)
+        {
+            value = i.HasItem(item);
+        }
+
+        return value;
     }
 
     private bool HasRequiredItems(Inventory i)
