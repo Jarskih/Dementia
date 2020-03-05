@@ -51,7 +51,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cd2a7d4f18674104d9f36dd38f495daa, type: 2}
   _itemsShouldNotBeFound:
   - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
-  textId: PhoneBoothCoin
+  textId: PhoneBoothCoinOnly
   radius: 3.69
   playAtStart: 0
 --- !u!114 &68819436

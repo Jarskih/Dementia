@@ -17,4 +17,4 @@ MonoBehaviour:
   line: There is something in my pocket.
   person: You
   _audio: {fileID: 0}
-  _event: 
+  _event: FoundReceipt
