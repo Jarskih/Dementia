@@ -79,7 +79,7 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StartListening("FoundPhoneBooth", FoundPhoneBooth); 
         EventManager.StartListening("FoundCoinOnly", FoundCoinOnly); 
         EventManager.StartListening("PhoneBoothWalletOnly", PhoneBoothWalletOnly); 
-        EventManager.StartListening("PhoneBoothCoin", PhoneBoothCoin); 
+        EventManager.StartListening("PhoneBoothCoinOnly", PhoneBoothCoin); 
     }
 
     private void OnDisable()
@@ -95,11 +95,14 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StopListening("FoundCoins", FoundCoins);
         EventManager.StopListening("PhoneCall", PhoneCall);
         EventManager.StopListening("FoundPhoneBooth", FoundPhoneBooth);
+        EventManager.StopListening("FoundCoinOnly", FoundCoinOnly); 
+        EventManager.StopListening("PhoneBoothWalletOnly", PhoneBoothWalletOnly); 
+        EventManager.StopListening("PhoneBoothCoinOnly", PhoneBoothCoin); 
     }
     
     private void PhoneBoothCoin()
     {
-        _currentConversation = FindConversation("PhoneBoothCoin");
+        _currentConversation = FindConversation("PhoneBoothCoinOnly");
         _textTimer = 10;
     }
 
