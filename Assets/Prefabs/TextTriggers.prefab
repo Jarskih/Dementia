@@ -34,6 +34,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68819435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837796916562694548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85634662fcdf12a47acb7352ac3017ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  played: 0
+  _requiredItems:
+  - {fileID: 11400000, guid: cd2a7d4f18674104d9f36dd38f495daa, type: 2}
+  _itemsShouldNotBeFound:
+  - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
+  textId: PhoneBoothCoin
+  radius: 3.69
+  playAtStart: 0
+--- !u!114 &68819436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837796916562694548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85634662fcdf12a47acb7352ac3017ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  played: 0
+  _requiredItems:
+  - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
+  _itemsShouldNotBeFound:
+  - {fileID: 11400000, guid: cd2a7d4f18674104d9f36dd38f495daa, type: 2}
+  textId: PhoneBoothWalletOnly
+  radius: 3.69
+  playAtStart: 0
 --- !u!114 &4668891290096599748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,7 +92,27 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cd2a7d4f18674104d9f36dd38f495daa, type: 2}
   - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
   textId: FoundPhoneBooth
+  radius: 8.32
+  playAtStart: 0
+--- !u!114 &1502669362131934054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4954449216629361591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85634662fcdf12a47acb7352ac3017ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  played: 0
+  _requiredItems: []
+  _itemsShouldNotBeFound:
+  - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
+  textId: FoundCoinOnly
   radius: 3.26
+  playAtStart: 0
 --- !u!1001 &4954449217494242230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239,6 +299,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 404e14bc7f48b2147bfb0ca93d1b3177, type: 3}
+--- !u!1 &4954449216629361591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1481682375550550275, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
+    type: 3}
+  m_PrefabInstance: {fileID: 5786636329735555764}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4954449216629361593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1481682375550550285, guid: 404e14bc7f48b2147bfb0ca93d1b3177,

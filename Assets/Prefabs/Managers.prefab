@@ -216,7 +216,7 @@ PrefabInstance:
     - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
         type: 3}
       propertyPath: _conversations.Array.size
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
         type: 3}
@@ -250,6 +250,24 @@ PrefabInstance:
       propertyPath: _conversations.Array.data[9]
       value: 
       objectReference: {fileID: 11400000, guid: 2808983c53b1a1345b10b4081cdd37aa,
+        type: 2}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 15c84e6aa68995d4aace10049cac1fc9,
+        type: 2}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e7b51dc11037824f96ef5a734c43c00,
+        type: 2}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: 07da8412f77a77c479f9402ca14c8765,
         type: 2}
     - target: {fileID: 8524894988091460189, guid: ebd62d65875a5254ca8c0859752b4f04,
         type: 3}

@@ -36851,7 +36851,6 @@ GameObject:
   - component: {fileID: 3816282739827830644}
   - component: {fileID: 1836669129071709703}
   - component: {fileID: 4877581791185431790}
-  - component: {fileID: 6051044315376640600}
   - component: {fileID: 6798888354082587318}
   m_Layer: 0
   m_Name: NPC Variant 2
@@ -37224,25 +37223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &6051044315376640600
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4811554076005791273}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69e087faff7c757489bef6d3cabbd8f0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!224 &6108489803552318923
 RectTransform:
   m_ObjectHideFlags: 0

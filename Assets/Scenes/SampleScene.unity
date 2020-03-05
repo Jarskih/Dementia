@@ -350,11 +350,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1844371026664734449, guid: 7e9237f0a76fe1b4eb24a49ee1e841cd,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1844371027528521130, guid: 7e9237f0a76fe1b4eb24a49ee1e841cd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -465,11 +460,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
-    - target: {fileID: 1844371027528521174, guid: 7e9237f0a76fe1b4eb24a49ee1e841cd,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e9237f0a76fe1b4eb24a49ee1e841cd, type: 3}
 --- !u!1001 &658769343
@@ -485,11 +475,6 @@ PrefabInstance:
       objectReference: {fileID: 423343101}
     - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
         type: 3}
-      propertyPath: _conversations.Array.size
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
-        type: 3}
       propertyPath: _uiText
       value: 
       objectReference: {fileID: 803454905}
@@ -498,24 +483,6 @@ PrefabInstance:
       propertyPath: _ui
       value: 
       objectReference: {fileID: 1511525463}
-    - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
-        type: 3}
-      propertyPath: _conversations.Array.data[10]
-      value: 
-      objectReference: {fileID: 11400000, guid: 15c84e6aa68995d4aace10049cac1fc9,
-        type: 2}
-    - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
-        type: 3}
-      propertyPath: _conversations.Array.data[11]
-      value: 
-      objectReference: {fileID: 11400000, guid: 3e7b51dc11037824f96ef5a734c43c00,
-        type: 2}
-    - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
-        type: 3}
-      propertyPath: _conversations.Array.data[12]
-      value: 
-      objectReference: {fileID: 11400000, guid: 07da8412f77a77c479f9402ca14c8765,
-        type: 2}
     - target: {fileID: 8339491463078032936, guid: 7535e13565a05d044906f7258aae59e8,
         type: 3}
       propertyPath: m_LocalPosition.x

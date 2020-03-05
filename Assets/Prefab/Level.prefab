@@ -2231,6 +2231,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC Shop
       objectReference: {fileID: 0}
+    - target: {fileID: 101181145151156369, guid: b195a98333183ad458799d8af2b555bd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8512359177808687883, guid: b195a98333183ad458799d8af2b555bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2244,7 +2249,7 @@ PrefabInstance:
     - target: {fileID: 8512359177808687883, guid: b195a98333183ad458799d8af2b555bd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8512359177808687883, guid: b195a98333183ad458799d8af2b555bd,
         type: 3}
