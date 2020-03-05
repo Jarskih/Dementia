@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67d9d4bddef6b324db07e7c97f8a61a1, type: 3}
   m_Name: PhoneBoothWalletOnly
   m_EditorClassIdentifier: 
-  conversationId: 
+  conversationId: PhoneBoothWalletOnly
   lines:
   - {fileID: 11400000, guid: 63e6cd83dd4828d46845658e9b10b319, type: 2}
   - {fileID: 11400000, guid: 3f12bb3ff5414c445a00ff8685de4d44, type: 2}
