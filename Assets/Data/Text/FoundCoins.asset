@@ -15,3 +15,4 @@ MonoBehaviour:
   conversationId: FoundCoins
   lines:
   - {fileID: 11400000, guid: 4595215e9239eca4aa8b44181ba50e3d, type: 2}
+  - {fileID: 11400000, guid: 63175a5553f9c7c44b1bb1238caf7dbd, type: 2}

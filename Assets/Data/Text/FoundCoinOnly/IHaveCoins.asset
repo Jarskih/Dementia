@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: IHaveCoinsOnly
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: Hmm...I can use these coins for something
+  line: Hmm...I can probably use these coins for something
   person: You
   _audio: {fileID: 0}
   _event: 
