@@ -34,6 +34,7 @@ public class ShowImage : MonoBehaviour
     
     private void ImageVisible()
     {
+        _image.enabled = true;
         showImage = true;
     }
 
