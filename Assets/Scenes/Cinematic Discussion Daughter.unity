@@ -246,6 +246,11 @@ PrefabInstance:
       propertyPath: _ui
       value: 
       objectReference: {fileID: 1844371025707612112}
+    - target: {fileID: 1656790344948815425, guid: 7535e13565a05d044906f7258aae59e8,
+        type: 3}
+      propertyPath: _textDelay
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8339491463078032936, guid: 7535e13565a05d044906f7258aae59e8,
         type: 3}
       propertyPath: m_LocalPosition.x
