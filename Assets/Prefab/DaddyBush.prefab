@@ -61,6 +61,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 3}
   m_EdgeRadius: 0
+--- !u!58 &586483090372150535
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7335152944089763100}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1001 &1437080582897034339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -283,6 +299,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 8936124498494142532, guid: fe2f726f8016e494ebe8c7be401c97ee, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fe2f726f8016e494ebe8c7be401c97ee, type: 3}
+--- !u!1 &7335152944089763100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 825754518794779020, guid: fe2f726f8016e494ebe8c7be401c97ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 7979844045412119696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7338753930919803050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 821454139425279034, guid: fe2f726f8016e494ebe8c7be401c97ee,
