@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: Science
   m_EditorClassIdentifier: 
   conversationId: Science
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: 9920763a035bfa44d979f7737fead8a8, type: 2}
+  - {fileID: 11400000, guid: 22c790cca07ad5d4c9935d0e43bb6307, type: 2}
+  - {fileID: 11400000, guid: 8013a9ac77df8a644be4894a73775cab, type: 2}
+  - {fileID: 11400000, guid: 57f829e84778c5b48add798ae652acf4, type: 2}
+  - {fileID: 11400000, guid: f776a50c68ebbd148ab0469b81ad25f3, type: 2}
+  - {fileID: 11400000, guid: fe73b923febec374a8584cbc04dee0f9, type: 2}

@@ -44,6 +44,7 @@ public class NarrativeManager : MonoBehaviour
             {
                 return;
             }
+            _textTimer = 0;
 
             _ui.SetActive(true);
             var narrative = _currentConversation.GetNextLine();
@@ -54,7 +55,6 @@ public class NarrativeManager : MonoBehaviour
             }
 
             _uiText.text = narrative.GetLine();
-            _textTimer = 0;
             return;
         }
 
@@ -71,6 +71,7 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StartListening("PoliceTalksToDaughter", PoliceTalksToDaughter);
         EventManager.StartListening("DiscussionWithDaughter", DiscussionWithDaughter);
         EventManager.StartListening("PoliceChat", PoliceChat);
+        EventManager.StartListening("Science", Science);
         
         // Item events
         EventManager.StartListening("FoundWallet", FoundWallet);
@@ -90,6 +91,7 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StopListening("PoliceTalksToDaughter", PoliceTalksToDaughter);
         EventManager.StopListening("DiscussionWithDaughter", DiscussionWithDaughter);
         EventManager.StopListening("PoliceChat", PoliceChat);
+        EventManager.StopListening("Science", Science);
 
         EventManager.StopListening("FoundWallet", FoundWallet);
         EventManager.StopListening("FoundCoins", FoundCoins);
@@ -99,7 +101,13 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StopListening("PhoneBoothWalletOnly", PhoneBoothWalletOnly); 
         EventManager.StopListening("PhoneBoothCoinOnly", PhoneBoothCoin); 
     }
-    
+
+    private void Science()
+    {
+        _currentConversation = FindConversation("Science");
+        _textTimer = 10;
+    }
+
     private void PhoneBoothCoin()
     {
         _currentConversation = FindConversation("PhoneBoothCoinOnly");

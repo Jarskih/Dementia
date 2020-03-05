@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
   m_Name: Science4
   m_EditorClassIdentifier: 
-  id: 
+  id: Science4
   color: {r: 1, g: 1, b: 1, a: 1}
   line: "Remember that as a relative to person with dementia the responsibility is
     not in your hands. \r\n"

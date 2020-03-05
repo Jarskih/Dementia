@@ -23,6 +23,11 @@ public class Narrative : ScriptableObject
           {
                FindObjectOfType<AudioSourcePoolManager>().PlayAudioEvent(_audio);
           }
-          return person + ": " + line;
+
+          if (person != "")
+          {
+               return person + ": " + line;
+          }
+          return line;
      }
 }
