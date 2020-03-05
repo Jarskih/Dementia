@@ -137,7 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f64264034a09a4d8fcc2100e3c3deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pickUpButtonImage: {fileID: 0}
 --- !u!95 &8887021012590894696
 Animator:
   serializedVersion: 3
@@ -199,7 +198,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a63b436f51b007748931cd17da6f8444, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.096
   m_Pitch: 1
   Loop: 1
   Mute: 0

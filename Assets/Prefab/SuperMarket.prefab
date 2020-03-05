@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3093593618253842709}
   - component: {fileID: 2172584299155670051}
+  - component: {fileID: 7995923358565003326}
   m_Layer: 0
   m_Name: SuperMarket
   m_TagString: Untagged
@@ -81,3 +82,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &7995923358565003326
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896079542183229169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.599999, y: 5.3999996}
+    newSize: {x: 38.399998, y: 21.599998}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.669374, y: 1.0259209}
+      - {x: 2.661919, y: 1.7390633}
+      - {x: -3.4125, y: 1.7390624}
+      - {x: -3.4125, y: -1.1484374}
+      - {x: -3.3890624, y: -1.1999999}
+      - {x: 2.6484373, y: -1.1999999}
+      - {x: 2.6612315, y: -0.01645279}
+      - {x: 3.0130353, y: -0.008172989}
+      - {x: 2.9999998, y: 1.0312499}
