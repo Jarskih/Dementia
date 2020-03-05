@@ -111,7 +111,7 @@ MonoBehaviour:
   _itemsShouldNotBeFound:
   - {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac, type: 2}
   textId: FoundCoinOnly
-  radius: 3.26
+  radius: 3.6
   playAtStart: 0
 --- !u!1001 &4954449217494242230
 PrefabInstance:
@@ -237,6 +237,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac,
         type: 2}
+    - target: {fileID: 1481682375550550274, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
+        type: 3}
+      propertyPath: radius
+      value: 7.64
+      objectReference: {fileID: 0}
     - target: {fileID: 1481682375550550275, guid: 404e14bc7f48b2147bfb0ca93d1b3177,
         type: 3}
       propertyPath: m_Name
