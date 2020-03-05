@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: PhoneBoothWalletOnly
   m_EditorClassIdentifier: 
   conversationId: 
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: 63e6cd83dd4828d46845658e9b10b319, type: 2}
+  - {fileID: 11400000, guid: 3f12bb3ff5414c445a00ff8685de4d44, type: 2}

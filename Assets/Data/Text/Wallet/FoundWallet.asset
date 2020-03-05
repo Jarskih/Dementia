@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: FoundWallet
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: Sir! You forgot your wallet, we kept it safe until your arrival. Here you
+  line: Sir... You forgot your wallet, we kept it safe until your arrival. Here you
     go.
   person: Shopkeeper
+  _audio: {fileID: 0}
+  _event: 

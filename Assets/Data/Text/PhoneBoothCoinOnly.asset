@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: PhoneBoothCoinOnly
   m_EditorClassIdentifier: 
   conversationId: 
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: 63175a5553f9c7c44b1bb1238caf7dbd, type: 2}
+  - {fileID: 11400000, guid: 6499433d8631e744a942086470243590, type: 2}
+  - {fileID: 11400000, guid: b41d311e895394a4ba1fbe6ddd866d7c, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: 
-  person: 
+  line: But I need to find some coins
+  person: You
   _audio: {fileID: 0}
   _event: 
