@@ -17,4 +17,4 @@ MonoBehaviour:
   line: Hello?
   person: You
   _audio: {fileID: 0}
-  _event: 
+  _event: FreezePlayer

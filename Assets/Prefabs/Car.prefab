@@ -131,7 +131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _turnRate: 10
-  _speed: 0.02
+  _speed: 3
+  CurrentWaypoint: {fileID: 0}
+  Waypoints: {fileID: 0}
   _collide: 1
 --- !u!61 &8084670967626153504
 BoxCollider2D:

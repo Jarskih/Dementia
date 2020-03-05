@@ -48,4 +48,5 @@ MonoBehaviour:
   _spawnTime: 0
   _minSpawnTime: 3
   _maxSpawnTime: 6
+  _waypoints: {fileID: 0}
   _maxCars: 10

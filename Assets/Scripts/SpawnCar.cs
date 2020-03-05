@@ -12,6 +12,7 @@ public class SpawnCar : MonoBehaviour
     [SerializeField] private float _spawnTime;
     [SerializeField] private float _minSpawnTime = 3;
     [SerializeField] private float _maxSpawnTime = 6;
+    [SerializeField] private Waypoints _waypoints;
     
     [SerializeField] private int _maxCars;
     private int _cars;
@@ -39,6 +40,8 @@ public class SpawnCar : MonoBehaviour
             var car = Instantiate(carPrefab, transform.position, Quaternion.identity);
             car.transform.localScale = Vector3.one;
             car.transform.SetParent(transform);
+            car.GetComponent<Car>().Waypoints = _waypoints;
+            car.GetComponent<Car>().CurrentWaypoint = _waypoints.GetFirstWaypoint();
         }
     }
 }

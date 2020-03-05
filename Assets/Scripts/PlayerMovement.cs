@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,6 +13,26 @@ public class PlayerMovement : MonoBehaviour
     public Animator playerAnimator;
 
     Rigidbody2D rb2d;
+    private bool _isFrozen;
+
+    private void OnEnable()
+    {
+        EventManager.StartListening("FreezePlayer", FreezePlayer);
+    }
+
+    private void OnDisable()
+    {
+        EventManager.StopListening("FreezePlayer", FreezePlayer);
+    }
+
+    private void FreezePlayer()
+    {
+        _isFrozen = true;
+        horizontalInput = 0;
+        verticalInput = 0;
+        rb2d.velocity = Vector3.zero;
+        playerAnimator.SetFloat("PlayerVelocity", 0f);
+    }
 
     void Start()
     {
@@ -20,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (_isFrozen) return;
         GetPlayerInput();
     }
 

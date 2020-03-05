@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1177959845937395710}
   - component: {fileID: 1177959845937395709}
-  - component: {fileID: 5727461017729689246}
-  - component: {fileID: 1762555272350984579}
   - component: {fileID: 4332833737566244209}
-  - component: {fileID: 3091066339187495706}
+  - component: {fileID: 559648920443091925}
+  - component: {fileID: 3089602254318869372}
   m_Layer: 0
   m_Name: PoliceCar
   m_TagString: Untagged
@@ -50,49 +49,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _turnRate: 10
-  _speed: 0.02
-  _collide: 1
---- !u!61 &5727461017729689246
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177959845937395708}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.01, y: 1.88}
-  m_EdgeRadius: 0.06
---- !u!114 &1762555272350984579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177959845937395708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27c459c9ac21d6e4dbb8ec09694ba7c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxDistance: 5
-  _radius: 1
-  _colliding: 0
+  _speed: 5
+  CurrentWaypoint: {fileID: 0}
+  Waypoints: {fileID: 0}
+  _collide: 0
 --- !u!50 &4332833737566244209
 Rigidbody2D:
   serializedVersion: 4
@@ -114,8 +74,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &3091066339187495706
-BoxCollider2D:
+--- !u!114 &559648920443091925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177959845937395708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85634662fcdf12a47acb7352ac3017ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  played: 0
+  _requiredItems: []
+  _itemsShouldNotBeFound: []
+  textId: PoliceChat
+  radius: 4
+--- !u!58 &3089602254318869372
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -127,19 +104,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01, y: -1.32}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1.18, y: 0.75}
-  m_EdgeRadius: 0
+  m_Radius: 5.4
 --- !u!1 &1177959846000682668
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +177,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 22481a0126259e54faae387880ade720, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1931d8f388ac1de49afeb39f6b8a65d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1

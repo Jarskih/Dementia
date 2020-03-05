@@ -75,11 +75,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carPrefab: {fileID: 1177959845937395708, guid: a8aa0bf7fefd3194a9d81a4e66bf1024,
     type: 3}
-  officer1: {fileID: 0}
-  officer2: {fileID: 0}
   _spawnCar: {fileID: 332407968}
-  _spawnOfficer1: {fileID: 0}
-  _spawn3Officer2: {fileID: 0}
+  _waypoints: {fileID: 0}
 --- !u!1 &8339491463078032938
 GameObject:
   m_ObjectHideFlags: 0
