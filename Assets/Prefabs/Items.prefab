@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 7803726034157736714}
   - component: {fileID: 5386258066210237877}
   - component: {fileID: 927291930}
-  - component: {fileID: 927291927}
+  - component: {fileID: 8162282124940701861}
   m_Layer: 0
   m_Name: Wallet
   m_TagString: Untagged
@@ -174,7 +174,7 @@ Transform:
   m_GameObject: {fileID: 7803726034157736708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.13, y: 56.39, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 0.283, y: 0.283, z: 0.283}
   m_Children: []
   m_Father: {fileID: 7199863716039347585}
   m_RootOrder: 0
@@ -203,13 +203,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3
---- !u!212 &927291927
+  m_Radius: 0.079034835
+--- !u!212 &8162282124940701861
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,12 +248,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.93122303, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 27bd06f205b39ed4594b253c38bd3eeb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 10, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 2663576041253270091}
   - component: {fileID: 2205748921660483497}
   - component: {fileID: 7803726033801562396}
-  - component: {fileID: 7803726033801562390}
+  - component: {fileID: 5340198622843560681}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -287,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 8394208819899969312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.24, y: 2.93, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 0.116041206, y: 0.116041206, z: 0.02320824}
   m_Children: []
   m_Father: {fileID: 7199863716039347585}
   m_RootOrder: 1
@@ -316,13 +316,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3
---- !u!212 &7803726033801562390
+  m_Radius: 0.07841838
+--- !u!212 &5340198622843560681
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,13 +360,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.93122303, g: 1, b: 0, a: 1}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: dbb82fca72a84e44c94167be4c072a46, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 17, y: 9.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
