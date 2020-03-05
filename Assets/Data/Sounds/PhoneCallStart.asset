@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PhoneCall1
+  m_Script: {fileID: 11500000, guid: a90db3620cac3094eaa7f4ed95bfc68b, type: 3}
+  m_Name: PhoneCallStart
   m_EditorClassIdentifier: 
-  id: PhoneCall1
-  color: {r: 1, g: 0.495283, b: 0.6114524, a: 1}
-  line: Hello?
-  person: You
-  _audio: {fileID: 11400000, guid: 13ecd9a49009fa74d916e715cceaf735, type: 2}
-  _event: FreezePlayer
+  clips:
+  - {fileID: 8300000, guid: 9676c7596c0cfa94bab279d4e6324b38, type: 3}
+  minVolume: 0.603
+  maxVolume: 0.613
+  minPitch: 1
+  maxPitch: 1

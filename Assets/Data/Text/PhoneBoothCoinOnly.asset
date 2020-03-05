@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67d9d4bddef6b324db07e7c97f8a61a1, type: 3}
-  m_Name: FoundCoins
+  m_Name: PhoneBoothCoinOnly
   m_EditorClassIdentifier: 
-  conversationId: FoundCoins
+  conversationId: 
   lines:
-  - {fileID: 11400000, guid: 4595215e9239eca4aa8b44181ba50e3d, type: 2}
+  - {fileID: 11400000, guid: 63175a5553f9c7c44b1bb1238caf7dbd, type: 2}
+  - {fileID: 11400000, guid: 6499433d8631e744a942086470243590, type: 2}
+  - {fileID: 11400000, guid: b41d311e895394a4ba1fbe6ddd866d7c, type: 2}
