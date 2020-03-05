@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Science1
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: 'To achieve optimal management it is important with an early diagnosis of
-    dementia. '
+  line: 'Early diagnosis of dementia is important for achieving optimal management
+    of the condition.
+
+'
   person: 
   _audio: {fileID: 0}
   _event: 

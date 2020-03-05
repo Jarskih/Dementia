@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Science4
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: "Remember that as a relative to person with dementia the responsibility is
-    not in your hands. \r\n"
+  line: "Remember that as a relative to a person with dementia the responsibility
+    is not only in your hands. \r\n"
   person: 
   _audio: {fileID: 0}
   _event: 

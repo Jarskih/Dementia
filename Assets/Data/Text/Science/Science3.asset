@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Science3
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: Dementia is a common issue in the world with around 50 milion cases record
+  line: Dementia is a common issue in the world with around 50 million cases recorded
     across the globe.
   person: 
   _audio: {fileID: 0}

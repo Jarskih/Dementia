@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Science6
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: 
+  line: 'For more information about dementia visit:
+
+    https://www.who.int/news-room/fact-sheets/detail/dementia'
   person: 
   _audio: {fileID: 0}
   _event: 

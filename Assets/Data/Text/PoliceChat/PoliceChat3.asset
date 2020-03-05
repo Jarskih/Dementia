@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: PoliceChat3
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: Your daughter is worried about you. Please come to the vechicle.
+  line: Your daughter is worried about you. Please come to the vehicle.
   person: Police Officer
   _audio: {fileID: 0}
   _event: 
