@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PictureOfDaugter
+  m_Name: PhoneCall8
   m_EditorClassIdentifier: 
-  id: PictureOfDaugter
-  color: {r: 1, g: 1, b: 1, a: 0}
-  line: "There is a picture in the wallet. I think... it's my daughter?\r"
+  id: PhoneCall6
+  color: {r: 1, g: 1, b: 1, a: 1}
+  line: "Hmpf.. I can find home on my own.\r"
   person: You
-  _audio: {fileID: 0}
-  _event: 
+  _audio: {fileID: 11400000, guid: edc3d713b379a584f8de97237d704ae3, type: 2}
+  _event: Police
