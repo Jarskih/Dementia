@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: FindsReceipt
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: There is in something in my pocket.
+  line: There is something in my pocket.
   person: You
+  _audio: {fileID: 0}
+  _event: 
