@@ -83,14 +83,17 @@ public class TriggerText : MonoBehaviour
             return true;
         }
         
-        bool value = false;
+        int items = 0;
 
         foreach (var item in _requiredItems)
         {
-            value = i.HasItem(item);
+            if (i.HasItem(item))
+            {
+                items++;
+            }
         }
 
-        return value;
+        return items == _requiredItems.Count;
     }
 
     private void OnDrawGizmos()

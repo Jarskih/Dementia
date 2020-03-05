@@ -77,6 +77,7 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StartListening("FoundCoins", FoundCoins);
         EventManager.StartListening("PhoneCall", PhoneCall);
         EventManager.StartListening("FoundPhoneBooth", FoundPhoneBooth); 
+        // TODO FoundCoinOnly, PhoneBoothWalletOnly, PhoneBoothCoin
     }
     
     private void OnDisable()
