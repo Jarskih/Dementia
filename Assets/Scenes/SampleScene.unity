@@ -188,6 +188,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4668891290096599748, guid: 9072107533d187a448937aa1a38ce485,
+        type: 3}
+      propertyPath: _itemsShouldNotBeFound.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668891290096599748, guid: 9072107533d187a448937aa1a38ce485,
+        type: 3}
+      propertyPath: _itemsShouldNotBeFound.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: ebf04aa8721e0c345b1ab5f5a55c64ac,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9072107533d187a448937aa1a38ce485, type: 3}
 --- !u!1001 &423343100
@@ -68413,6 +68424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5443f7228b8215349a150574b61b39ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _eventName: 
 --- !u!1001 &1715204709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68692,6 +68704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5443f7228b8215349a150574b61b39ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _eventName: 
 --- !u!114 &2035005294 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7185286230878588464, guid: a00dabfd186ec5241b3bad5174093631,

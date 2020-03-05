@@ -66,14 +66,15 @@ public class TriggerText : MonoBehaviour
             return false;
         }
         
-        bool value = false;
 
         foreach (var item in _itemsShouldNotBeFound)
         {
-            value = i.HasItem(item);
+            if (i.HasItem(item))
+            {
+                return true;
+            }
         }
-
-        return value;
+        return false;
     }
 
     private bool HasRequiredItems(Inventory i)
