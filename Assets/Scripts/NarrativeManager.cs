@@ -100,66 +100,79 @@ public class NarrativeManager : MonoBehaviour
     private void PhoneBoothCoin()
     {
         _currentConversation = FindConversation("PhoneBoothCoin");
+        _textTimer = 10;
     }
 
     private void PhoneBoothWalletOnly()
     {
         _currentConversation = FindConversation("PhoneBoothWalletOnly");
+        _textTimer = 10;
     }
 
     private void FoundCoinOnly()
     {
         _currentConversation = FindConversation("FoundCoinOnly");
+        _textTimer = 10;
     }
     
     private void PoliceChat()
     {
         _currentConversation = FindConversation("PoliceChat");
+        _textTimer = 10;
     }
 
     
     private void DiscussionWithDaughter()
     {
         _currentConversation = FindConversation("DiscussionWithDaughter");
+        _textTimer = 10;
     }
 
     private void PoliceTalksToDaughter()
     {
         _currentConversation = FindConversation("PoliceTalksToDaughter");
+        _textTimer = 10;
     }
 
     private void FoundWallet()
     {
         _currentConversation = FindConversation("FoundWallet"); 
+        _textTimer = 10;
     }
 
     private void PhoneCall()
     {
          _currentConversation = FindConversation("PhoneCall"); 
+         _textTimer = 10;
     }
 
     private void FoundPhoneBooth()
     {
         _currentConversation = FindConversation("FoundPhoneBooth"); 
+        _textTimer = 10;
     }
 
     private void AfterCrash()
     {
         _currentConversation = FindConversation("AfterCrash");   
+        _textTimer = 10;
     }
     private void Fountain()
     {
         _currentConversation = FindConversation("Fountain");
+        _textTimer = 10;
     }
     
     private void Wallet()
     {
         _currentConversation = FindConversation("Wallet");
+        _textTimer = 10;
     }
     
     private void FoundCoins()
     {
         _currentConversation = FindConversation("FoundCoins");
+        _textTimer = 10;
     }
     
     private Conversation FindConversation(string id)
