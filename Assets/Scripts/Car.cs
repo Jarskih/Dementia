@@ -24,10 +24,15 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Waypoints == null)
+        {
+            return;
+        }
+        
         if (_collide && _detectCollision.IsColliding())
         {
             return;
-        } 
+        }
         
         var distance = Vector3.Distance(transform.position, CurrentWaypoint.transform.position);
 

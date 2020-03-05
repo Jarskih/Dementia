@@ -91,6 +91,7 @@ MonoBehaviour:
   _itemsShouldNotBeFound: []
   textId: PoliceChat
   radius: 4
+  playAtStart: 0
 --- !u!58 &3089602254318869372
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -177,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 1931d8f388ac1de49afeb39f6b8a65d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 840f5c2ecab0fba42a68ceb6dee6ba4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 1

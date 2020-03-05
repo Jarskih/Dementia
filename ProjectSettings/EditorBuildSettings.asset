@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Cinematic Discussion Police.unity
+    guid: ea16b7c24b1ec1e46b7431ea268519ef
+  - enabled: 1
+    path: Assets/Scenes/Cinematic Educational.unity
+    guid: 47f2ca9322ca5c34b9e8661db705745a
+  - enabled: 1
+    path: Assets/Scenes/Cinematic Discussion Daughter.unity
+    guid: a516c207c73daf74f920ace20093a977
   m_configObjects: {}

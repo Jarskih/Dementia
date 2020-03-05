@@ -68,25 +68,47 @@ public class NarrativeManager : MonoBehaviour
         EventManager.StartListening("AfterCrash", AfterCrash);
         EventManager.StartListening("Wallet", Wallet);
         EventManager.StartListening("Fountain", Fountain);
+        EventManager.StartListening("PoliceTalksToDaughter", PoliceTalksToDaughter);
+        EventManager.StartListening("DiscussionWithDaughter", DiscussionWithDaughter);
+        EventManager.StartListening("PoliceChat", PoliceChat);
         
         // Item events
         EventManager.StartListening("FoundWallet", FoundWallet);
         EventManager.StartListening("FoundCoins", FoundCoins);
         EventManager.StartListening("PhoneCall", PhoneCall);
-        EventManager.StartListening("FoundPhoneBooth", FoundPhoneBooth);
-        
+        EventManager.StartListening("FoundPhoneBooth", FoundPhoneBooth); 
     }
-
+    
     private void OnDisable()
     {
         EventManager.StopListening("AfterCrash", AfterCrash);
         EventManager.StopListening("Wallet", Wallet);
         EventManager.StopListening("Fountain", Fountain);
+        EventManager.StopListening("PoliceTalksToDaughter", PoliceTalksToDaughter);
+        EventManager.StopListening("DiscussionWithDaughter", DiscussionWithDaughter);
+        EventManager.StopListening("PoliceChat", PoliceChat);
 
         EventManager.StopListening("FoundWallet", FoundWallet);
         EventManager.StopListening("FoundCoins", FoundCoins);
         EventManager.StopListening("PhoneCall", PhoneCall);
         EventManager.StopListening("FoundPhoneBooth", FoundPhoneBooth);
+    }
+    
+    
+    private void PoliceChat()
+    {
+        _currentConversation = FindConversation("PoliceChat");
+    }
+
+    
+    private void DiscussionWithDaughter()
+    {
+        _currentConversation = FindConversation("DiscussionWithDaughter");
+    }
+
+    private void PoliceTalksToDaughter()
+    {
+        _currentConversation = FindConversation("PoliceTalksToDaughter");
     }
 
     private void FoundWallet()

@@ -13,4 +13,12 @@ MonoBehaviour:
   m_Name: PoliceTalksToDaughter
   m_EditorClassIdentifier: 
   conversationId: PoliceTalksToDaughter
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: 6edb8317c8241dc4da4cd713bfb70a0e, type: 2}
+  - {fileID: 11400000, guid: 1bc64d30afad6084e9768e540d783f62, type: 2}
+  - {fileID: 11400000, guid: bfdc519bfd8342048a45a1ab8a74f05a, type: 2}
+  - {fileID: 11400000, guid: 5827cb5e11836be4aa2f5ebdfada6ef1, type: 2}
+  - {fileID: 11400000, guid: 19396e1e4f813c943af78ccd39de98af, type: 2}
+  - {fileID: 11400000, guid: 4087cabaaf1443f419f29d72c03324e6, type: 2}
+  - {fileID: 11400000, guid: e2ef795ba9c3e2a4fb9531942519ee2f, type: 2}
+  - {fileID: 11400000, guid: 4445e7497a6d6c44ca19f41e6e3233b1, type: 2}

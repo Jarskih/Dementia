@@ -11,6 +11,7 @@ public class TriggerText : MonoBehaviour
     [SerializeField] private List<Item> _itemsShouldNotBeFound = new List<Item>();
     [SerializeField] private string textId;
     [SerializeField] private float radius = 1;
+    [SerializeField] private bool playAtStart;
 
     private CircleCollider2D _col;
 
@@ -18,6 +19,13 @@ public class TriggerText : MonoBehaviour
     {
         _col = GetComponent<CircleCollider2D>();
         _col.radius = radius;
+
+        if (playAtStart)
+        {
+            played = true;
+            Debug.Log("Trigger: " + textId);
+            EventManager.TriggerEvent(textId);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

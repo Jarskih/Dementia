@@ -77,6 +77,51 @@ MonoBehaviour:
     type: 3}
   _spawnCar: {fileID: 332407968}
   _waypoints: {fileID: 0}
+--- !u!1 &1816286853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816286854}
+  - component: {fileID: 1816286855}
+  m_Layer: 0
+  m_Name: LoadScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816286854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816286853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8339491463078032936}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816286855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816286853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250954ce97fe32a4ea956dcfc89a041b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delay: 3
+  _scene: Cinematic Discussion Daughter
 --- !u!1 &8339491463078032938
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +153,7 @@ Transform:
   - {fileID: 8339491464241241215}
   - {fileID: 1097435433}
   - {fileID: 332407968}
+  - {fileID: 1816286854}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -169,6 +215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
         type: 3}
+      propertyPath: _conversations.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
       propertyPath: _uiText
       value: 
       objectReference: {fileID: 0}
@@ -182,6 +233,24 @@ PrefabInstance:
       propertyPath: _textDelay
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58d830624622ca142a1e18e9719e4ea3,
+        type: 2}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: f2b12954f52070e49823bba6087989aa,
+        type: 2}
+    - target: {fileID: 7297460079361043285, guid: ebd62d65875a5254ca8c0859752b4f04,
+        type: 3}
+      propertyPath: _conversations.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2808983c53b1a1345b10b4081cdd37aa,
+        type: 2}
     - target: {fileID: 8524894988091460189, guid: ebd62d65875a5254ca8c0859752b4f04,
         type: 3}
       propertyPath: m_LocalPosition.x
