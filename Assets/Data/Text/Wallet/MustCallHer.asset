@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: MustCallHer
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: This must be her number on the photo. I find a way to call her.
+  line: This should be her number... I need to find a way to call her.
   person: You
+  _audio: {fileID: 0}
+  _event: 

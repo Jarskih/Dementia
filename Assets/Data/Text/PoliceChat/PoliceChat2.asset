@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PhoneCall7
+  m_Name: PoliceChat2
   m_EditorClassIdentifier: 
-  id: PhoneCall6
+  id: PoliceChat1
   color: {r: 1, g: 1, b: 1, a: 1}
-  line: I am too embarrassed to ask for help. I am a grown man and I cannot find
-    way back home.
+  line: "What's going on?\r"
   person: You
-  _audio: {fileID: 11400000, guid: edc3d713b379a584f8de97237d704ae3, type: 2}
+  _audio: {fileID: 0}
   _event: 

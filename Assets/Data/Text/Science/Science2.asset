@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PictureOfDaugter
+  m_Name: Science2
   m_EditorClassIdentifier: 
-  id: PictureOfDaugter
-  color: {r: 1, g: 1, b: 1, a: 0}
-  line: "There is a picture in the wallet. I think... it's my daughter?\r"
-  person: You
+  id: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  line: It is important to provide information and long term support not only to
+    the patients but carers as well.
+  person: 
   _audio: {fileID: 0}
   _event: 

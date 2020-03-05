@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e3c0cc8c73a181045b85e89267d5b4a8, type: 3}
-  m_Name: PictureOfDaugter
+  m_Name: DiscussionWithDaughter3
   m_EditorClassIdentifier: 
-  id: PictureOfDaugter
-  color: {r: 1, g: 1, b: 1, a: 0}
-  line: "There is a picture in the wallet. I think... it's my daughter?\r"
-  person: You
+  id: DiscussionWithDaughter3
+  color: {r: 1, g: 1, b: 1, a: 1}
+  line: You have been gone 5 hours. Look, I am sorry for yelling before... It's just...
+    really stressfull...
+  person: Daughter
   _audio: {fileID: 0}
   _event: 
